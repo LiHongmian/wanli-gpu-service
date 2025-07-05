@@ -68,7 +68,7 @@
         "description": "高性能游戏显卡，8GB GDDR6X显存，支持光线追踪和DLSS 3.0技术",
         "brand": {
             "@type": "Brand",
-            "name": "万丽"
+            "name": "显卡品牌"
         },
         "category": "显卡",
         "offers": {
@@ -88,7 +88,7 @@
         "description": "中高端游戏显卡，6GB GDDR6显存，性价比极高",
         "brand": {
             "@type": "Brand",
-            "name": "万丽"
+            "name": "显卡品牌"
         },
         "category": "显卡",
         "offers": {
@@ -108,7 +108,7 @@
         "description": "入门级游戏显卡，4GB GDDR6显存，适合1080p游戏",
         "brand": {
             "@type": "Brand",
-            "name": "万丽"
+            "name": "显卡品牌"
         },
         "category": "显卡",
         "offers": {
@@ -1038,9 +1038,9 @@
 <body>
     <div class="customer-service-container">
         <div class="header">
-            <img class="header-avatar" src="COMPANY_LOGO.png" alt="万丽显卡客服头像">
+            <img class="header-avatar" src="COMPANY_LOGO.png" alt="显卡客服头像">
             <div class="header-info">
-                <h3>万丽显卡客服</h3>
+                <h3>显卡客服</h3>
                 <p>在线时间: 9:00-22:00</p>
             </div>
         </div>
@@ -1090,13 +1090,13 @@
     
     <!-- SEO 隐藏内容 -->
     <div style="position: absolute; left: -9999px; top: -9999px;">
-        <h1>万丽显卡客服系统</h1>
+        <h1>显卡客服系统</h1>
         <h2>RTX 5080 OC 显卡咨询服务</h2>
         <h2>RTX 5070 Ti OC 显卡咨询服务</h2>
         <h2>RTX 5060 OC 显卡咨询服务</h2>
-        <p>万丽显卡官方客服系统提供专业的显卡咨询服务，包括RTX 5080 OC、RTX 5070 Ti OC、RTX 5060 OC等显卡的性能咨询、价格查询、保修服务等。我们的客服团队专业解答显卡相关问题，为游戏玩家和电脑爱好者提供最优质的服务。</p>
-        <p>万丽显卡客服系统特色功能：在线实时咨询、产品详情展示、图片查看、语音消息、文件上传、满意度评价等。支持多种交互方式，提供全方位的显卡咨询服务。</p>
-        <p>万丽显卡产品包括：RTX 5080 OC 高性能游戏显卡、RTX 5070 Ti OC 中高端游戏显卡、RTX 5060 OC 入门级游戏显卡。所有产品均提供3年质保，全国联保服务。</p>
+        <p>显卡官方客服系统提供专业的显卡咨询服务，包括RTX 5080 OC、RTX 5070 Ti OC、RTX 5060 OC等显卡的性能咨询、价格查询、保修服务等。我们的客服团队专业解答显卡相关问题，为游戏玩家和电脑爱好者提供最优质的服务。</p>
+        <p>显卡客服系统特色功能：在线实时咨询、产品详情展示、图片查看、语音消息、文件上传、满意度评价等。支持多种交互方式，提供全方位的显卡咨询服务。</p>
+        <p>显卡产品包括：RTX 5080 OC 高性能游戏显卡、RTX 5070 Ti OC 中高端游戏显卡、RTX 5060 OC 入门级游戏显卡。所有产品均提供3年质保，全国联保服务。</p>
     </div>
 
     <script>
@@ -1122,55 +1122,55 @@
             let satisfactionTimer = null;
             let hasShownSatisfaction = false;
             
-            // 万丽显卡订单数据
+            // 显卡订单数据
             const orders = [
                 {
                     id: "WL123456789",
                     status: "delivered",
-                    items: ["万丽 Gallardo RTX 5080 OC 显卡"],
+                    items: ["Gallardo RTX 5080 OC 显卡"],
                     total: "¥8999.00",
                     date: "2024-01-15"
                 },
                 {
                     id: "WL987654321", 
                     status: "shipped",
-                    items: ["万丽 White Gallardo RTX 5070 Ti OC 显卡"],
+                    items: ["White Gallardo RTX 5070 Ti OC 显卡"],
                     total: "¥5999.00",
                     date: "2024-01-20"
                 },
                 {
                     id: "WL555666777",
                     status: "pending",
-                    items: ["万丽 Polar Fox RTX 5060 OC 显卡"],
+                    items: ["Polar Fox RTX 5060 OC 显卡"],
                     total: "¥3999.00",
                     date: "2024-01-22"
                 }
             ];
             
-            // 万丽显卡产品知识库
+            // 显卡产品知识库
             const knowledgeBase = {
-                "你好": ["您好！万丽显卡客服为您服务，请问有什么可以帮您？😊", "有什么可以帮您的吗？👋"],
-                "万丽": ["万丽是专业的显卡品牌，专注于高性能游戏显卡的研发和生产。我们提供RTX 5080、5070 Ti、5060等多款产品。🎮", "万丽显卡以优秀的散热性能和稳定的超频能力著称，是游戏玩家的理想选择。"],
-                "5080": ["万丽 Gallardo RTX 5080 OC 是我们的旗舰产品，采用最新的RTX 5080核心，8GB GDDR6X显存，支持光线追踪和DLSS 3.0技术。🎯", "RTX 5080 OC 适合4K游戏和内容创作，性能强劲，散热优秀。"],
-                "5070": ["万丽 White Gallardo RTX 5070 Ti OC 是中高端游戏显卡，6GB GDDR6显存，性价比极高。🎮", "RTX 5070 Ti OC 适合2K游戏，性能稳定，价格实惠。"],
-                "5060": ["万丽 Polar Fox RTX 5060 OC 是入门级游戏显卡，4GB GDDR6显存，适合1080p游戏。💻", "RTX 5060 OC 性价比极高，是预算有限玩家的最佳选择。"],
+                "你好": ["您好！显卡客服为您服务，请问有什么可以帮您？😊", "有什么可以帮您的吗？👋"],
+                "显卡": ["显卡是专业的显卡品牌，专注于高性能游戏显卡的研发和生产。我们提供RTX 5080、5070 Ti、5060等多款产品。🎮", "显卡以优秀的散热性能和稳定的超频能力著称，是游戏玩家的理想选择。"],
+                "5080": ["Gallardo RTX 5080 OC 是我们的旗舰产品，采用最新的RTX 5080核心，8GB GDDR6X显存，支持光线追踪和DLSS 3.0技术。🎯", "RTX 5080 OC 适合4K游戏和内容创作，性能强劲，散热优秀。"],
+                "5070": ["White Gallardo RTX 5070 Ti OC 是中高端游戏显卡，6GB GDDR6显存，性价比极高。🎮", "RTX 5070 Ti OC 适合2K游戏，性能稳定，价格实惠。"],
+                "5060": ["Polar Fox RTX 5060 OC 是入门级游戏显卡，4GB GDDR6显存，适合1080p游戏。💻", "RTX 5060 OC 性价比极高，是预算有限玩家的最佳选择。"],
                 "详情": ["点击产品卡片可以查看详细的产品参数和图片。📸", "我可以为您展示产品的详细规格和实拍图片。"],
                 "图片": ["每个产品都有详细的产品图片，点击产品卡片即可查看。🖼️", "产品图片包含外观、接口、散热器等详细信息。"],
                 "评价": ["感谢您的关注！对话结束后系统会自动邀请您评价服务。💬", "您的评价对我们很重要，帮助我们提供更好的服务。"],
-                "价格": ["万丽显卡价格：RTX 5080 OC ¥8999，RTX 5070 Ti OC ¥5999，RTX 5060 OC ¥3999。💰", "我们提供分期付款和多种优惠活动，详情请咨询客服。"],
-                "性能": ["万丽显卡采用先进的散热技术，确保长时间游戏稳定运行。🔥", "我们的显卡都经过严格测试，支持超频，性能强劲可靠。"],
-                "保修": ["万丽显卡提供3年质保，全国联保服务。🛡️", "如有质量问题，我们提供免费维修或更换服务。"],
+                "价格": ["显卡价格：RTX 5080 OC ¥8999，RTX 5070 Ti OC ¥5999，RTX 5060 OC ¥3999。💰", "我们提供分期付款和多种优惠活动，详情请咨询客服。"],
+                "性能": ["显卡采用先进的散热技术，确保长时间游戏稳定运行。🔥", "我们的显卡都经过严格测试，支持超频，性能强劲可靠。"],
+                "保修": ["显卡提供3年质保，全国联保服务。🛡️", "如有质量问题，我们提供免费维修或更换服务。"],
                 "物流": ["我们的显卡一般会在下单后1-3个工作日内发货，物流时间大约3-5天。🚚", "您可以在订单详情中查看物流信息，如有异常请告诉我们。📦"],
                 "退货": ["如需退货，请在收到商品7天内申请，商品需保持完好。🔄", "退货流程：我的淘宝-已买到的宝贝-申请售后-选择退货退款。"],
                 "退款": ["退款会在退货商品验收后1-3个工作日内处理完成。💰", "退款将原路返回到您的支付账户。"],
-                "优惠": ["618活动期间，万丽显卡全场8折优惠！🎉", "关注店铺可领取100元优惠券，新用户还有额外折扣。🎁"],
+                "优惠": ["618活动期间，显卡全场8折优惠！🎉", "关注店铺可领取100元优惠券，新用户还有额外折扣。🎁"],
                 "支付": ["我们支持支付宝、微信支付和银行卡支付。💳", "支付遇到问题？请检查网络或尝试更换支付方式。"],
-                "质量": ["万丽显卡都经过严格质检，采用优质元器件，确保稳定可靠。✔️", "请放心购买，所有显卡都有质量保障和3年保修。"],
-                "谢谢": ["不客气，这是我们应该做的！😊", "感谢您选择万丽显卡，祝您游戏愉快！🎉"],
-                "默认": ["抱歉，我没有理解您的问题，您可以询问关于万丽显卡的具体信息吗？🤔", "这个问题我需要查询一下，请稍等...⌛"]
+                "质量": ["显卡都经过严格质检，采用优质元器件，确保稳定可靠。✔️", "请放心购买，所有显卡都有质量保障和3年保修。"],
+                "谢谢": ["不客气，这是我们应该做的！😊", "感谢您选择显卡，祝您游戏愉快！🎉"],
+                "默认": ["抱歉，我没有理解您的问题，您可以询问关于显卡的具体信息吗？🤔", "这个问题我需要查询一下，请稍等...⌛"]
             };
             
-                        // 万丽显卡常见问题快捷回复
+                        // 显卡常见问题快捷回复
             const quickReplies = [
                 "RTX 5080性能",
                 "RTX 5070 Ti价格",
@@ -1180,15 +1180,15 @@
                 "散热性能"
             ];
             
-            // 万丽显卡产品数据
+            // 显卡产品数据
             const products = [
                 {
                     id: 1,
-                    title: "万丽 Gallardo RTX 5080 OC 显卡",
+                    title: "Gallardo RTX 5080 OC 显卡",
                     price: "¥8999.00",
                     image: "PRODUCT_IMAGES/RTX5080_MAIN.jpg",
                     category: "显卡",
-                    brand: "万丽",
+                    brand: "显卡品牌",
                     model: "RTX 5080 OC",
                     features: ["高性能游戏显卡", "8GB GDDR6X显存", "光线追踪技术", "DLSS 3.0支持"],
                     detailImages: [
@@ -1206,7 +1206,7 @@
                 },
                 {
                     id: 2,
-                    title: "万丽 White Gallardo RTX 5070 Ti OC 显卡",
+                    title: "White Gallardo RTX 5070 Ti OC 显卡",
                     price: "¥5999.00",
                     image: "PRODUCT_IMAGES/RTX5070TI_MAIN.jpg",
                     category: "显卡",
@@ -1228,11 +1228,11 @@
                 },
                 {
                     id: 3,
-                    title: "万丽 Polar Fox RTX 5060 OC 显卡",
+                    title: "Polar Fox RTX 5060 OC 显卡",
                     price: "¥3999.00",
                     image: "PRODUCT_IMAGES/RTX5060_MAIN.jpg",
                     category: "显卡",
-                    brand: "万丽",
+                    brand: "显卡品牌",
                     model: "RTX 5060 OC",
                     features: ["入门级游戏显卡", "4GB GDDR6显存", "性价比之选", "适合1080p游戏"],
                     detailImages: [
@@ -1301,7 +1301,7 @@
                             chatHistory.push({ role: "assistant", content: finalReply });
                             if (chatHistory.length > 10) chatHistory.splice(0, chatHistory.length - 10);
                         }
-                        if (message.includes("推荐") || message.includes("显卡") || message.includes("买什么") || message.includes("万丽")) {
+                        if (message.includes("推荐") || message.includes("显卡") || message.includes("买什么") || message.includes("显卡")) {
                             setTimeout(() => {
                                 showRecommendedProducts();
                             }, 800);
@@ -1494,7 +1494,7 @@
                             // 如果是性能相关问题，显示详细参数
                             if (reply.includes("性能")) {
                                 setTimeout(() => {
-                                    addMessage("service", "万丽显卡采用先进的散热技术，确保长时间游戏稳定运行。所有显卡都经过严格测试，支持超频，性能强劲可靠。");
+                                    addMessage("service", "显卡采用先进的散热技术，确保长时间游戏稳定运行。所有显卡都经过严格测试，支持超频，性能强劲可靠。");
                                     updateActivityTime(); // 更新活动时间
                                 }, 800);
                             }
@@ -1646,7 +1646,7 @@
                     <div class="message-content service">
                         <div class="rating-header">
                             <h4>💬 服务评价</h4>
-                            <p>感谢您使用万丽显卡客服，请为本次服务评分：</p>
+                            <p>感谢您使用显卡客服，请为本次服务评分：</p>
                         </div>
                         <div class="rating-container">
                             <span class="star" data-rating="1">⭐</span>
@@ -1901,7 +1901,7 @@
         // SEO 优化：页面加载完成后的处理
         window.addEventListener('load', function() {
             // 发送页面浏览数据（可选）
-            console.log('万丽显卡客服系统页面加载完成');
+            console.log('显卡客服系统页面加载完成');
             
             // 预加载重要图片
             const preloadImages = [
